@@ -28,4 +28,5 @@ MACHINE_EXTRA_RRECOMMENDS_append_raspberrypi3 = " \
     kernel-module-bcm2835-gpiomem \
     kernel-module-bcm2835-wdt \
     kernel-module-uinput \
+    kernel-module-rpi-ft5406 \
 "
