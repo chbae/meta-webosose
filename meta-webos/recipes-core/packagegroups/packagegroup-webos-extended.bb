@@ -74,6 +74,10 @@ WEBOS_PACKAGESET_TZDATA ?= " \
     tzdata-right \
 "
 
+WEBOS_PACKAGESET_OPENCV = " \
+    libopencv-core \
+"
+
 RDEPENDS_${PN} = " \
     activitymanager \
     audiod \
@@ -118,6 +122,7 @@ RDEPENDS_${PN} = " \
     ${WEBOS_PACKAGESET_TESTAPPS} \
     ${WEBOS_PACKAGESET_TZDATA} \
     ${WEBOS_FOSS_MISSING_FROM_RDEPENDS} \
+    ${WEBOS_PACKAGESET_OPENCV} \
 "
 
 RDEPENDS_${PN}_append_hardware = " \
